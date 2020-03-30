@@ -4,9 +4,9 @@
 ### HW2-計算債券的 YTM、Spot Rate、Forward Rate 及Forward Rate 對照表
 | [學習歷程][] || [流程圖][] | [程式碼][] |
 
-  [學習歷程]:  https://drive.google.com/file/d/1PqDCQObODw5D3BfJtN054Y4N8pyFAitc/view?usp=sharing  "學習歷程"
+  [設計過程]:  https://github.com/mengjelee/Financial_Engineering/blob/master/hw2/hw2%E8%A8%AD%E8%A8%88%E6%96%87%E4%BB%B6.pdf  "設計過程"
   [流程圖]:  https://drive.google.com/file/d/18R_u8MKJx4o-csnH3Z_6m7w2qulkm4C4/view?usp=sharing  "流程圖"
-  [程式碼]:  https://github.com/mengjelee/Financial_Engineering/blob/master/hw1/hw1.ipynb    "程式碼"
+  [程式碼]:  https://github.com/mengjelee/Financial_Engineering/blob/master/hw2/hw2.ipynb    "程式碼"
   
 #### HW2學習歷程
 本次作業我使用python運算各期攤還之本金、利息及累計，並使用matplotlib製作表格輸出。由於運算過程不複雜
@@ -51,4 +51,5 @@
 4. 運用matplotlib製作表格
 
 ![試算結果](https://github.com/mengjelee/Financial_Engineering/blob/master/hw1/hw1.png)
+
   [試算網站]:  https://ttc.scu.org.tw/memdca1.htm    "本金平均攤還法試算利息試算網站"

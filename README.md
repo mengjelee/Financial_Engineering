@@ -5,7 +5,7 @@
 | [設計過程2][] || [流程圖2][] || [程式碼2][] |
 
   [設計過程2]:  https://github.com/mengjelee/Financial_Engineering/blob/master/hw2/hw2%E8%A8%AD%E8%A8%88%E6%96%87%E4%BB%B6.pdf  "設計過程2"
-  [流程圖2]:  https://drive.google.com/file/d/18R_u8MKJx4o-csnH3Z_6m7w2qulkm4C4/view?usp=sharing  "流程圖2"
+  [流程圖2]:  https://github.com/mengjelee/Financial_Engineering/blob/master/hw2/HW2%E6%B5%81%E7%A8%8B%E5%9C%96.pdf  "流程圖2"
   [程式碼2]:  https://github.com/mengjelee/Financial_Engineering/blob/master/hw2/hw2.ipynb    "程式碼2"
   
 #### HW2學習歷程
@@ -16,7 +16,7 @@
 2.	允許非整數年分
 3.	允許以各式報價方式計算ytm
 計算過程
-1.	判斷正負殖利率:若Current Bond Price > Bond Par Value* Bond Coupon Rate (% p.a.)* Years to Maturity，則為負殖利率，反之為正
+1.	判斷正負殖利率:若Current Bond Price > Bond Par Value + Bond Par Value* Bond Coupon Rate (% p.a.)* Years to Maturity，則為負殖利率，反之為正
 2.	若為正Ytm，從Ytm = 0開始以0.0001遞增尋找近似解 – 若下個ytm數值讓pv小於Current Bond Price則為最佳ytm
 3.	若為負Ytm，從Ytm =0開始以-0.0001遞減尋找近似解 – 若下個ytm數值讓pv大於Current Bond Price則為最佳ytm
 

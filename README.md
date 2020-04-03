@@ -9,8 +9,9 @@
   [程式碼2]:  https://github.com/mengjelee/Financial_Engineering/blob/master/hw2/hw2.ipynb    "程式碼2"
   
 #### HW2學習歷程
-本次作業我使用python運算各期攤還之本金、利息及累計，並使用matplotlib製作表格輸出。由於運算過程不複雜
-一、	計算ytm: 
+本次作業我使用python運算各期攤還之本金、利息及累計，並使用matplotlib製作表格輸出。
+
+###### 一、	計算ytm: 
 運用規劃求解概念以python求出ytm
 1.	允許負殖利率!!
 2.	允許非整數年分
@@ -20,17 +21,17 @@
 2.	若為正Ytm，從Ytm = 0開始以0.0001遞增尋找近似解 – 若下個ytm數值讓pv小於Current Bond Price則為最佳ytm
 3.	若為負Ytm，從Ytm =0開始以-0.0001遞減尋找近似解 – 若下個ytm數值讓pv大於Current Bond Price則為最佳ytm
 
-二、	計算spot rate
+###### 二、	計算spot rate
 計算邏輯:
 1.	Spot rate 1 = ((current price / par value) ^ (-1/duration)) -1
 2.	Spot rate 2 = ln(current price / par value)*(-1/duration)
 
-三、	計算遠期利率
+###### 三、	計算遠期利率
 計算邏輯:
 1.	Forward rate 1 = ((current price / par value) ^ (1/Duration of forward rate)) -1
 2.	Forward rate 2 = ln(current price / par value)*(1/Duration of forward rate) 
 
-四、製作遠期利率矩陣
+###### 四、製作遠期利率矩陣
 由於運算過程與第三步雷同，這次作業花較多時間學習如何使用matplotlib製作出隨著不同資料量改變呈現方式的純表格展示法。
 
 ![試算結果](https://github.com/mengjelee/Financial_Engineering/blob/master/hw2/forward_rate_matrix.png)

@@ -19,7 +19,10 @@ R = e^r ； p = (R − d)/(u − d)
 4.	以backward induction計算出各節點選擇權價格及hedge ratio
 hedge ratio = 權利金價值差異 / 當期價格差異
 5.	最終輸出有list of possible stock prices 、 option prices and hedge ratio並將後兩者輸出成表格。
+
+#### 各期權利金理論價格圖表
 ![各期權利金理論價格圖表](https://github.com/mengjelee/Financial_Engineering/blob/master/hw3/%E5%90%84%E6%9C%9F%E6%AC%8A%E5%88%A9%E9%87%91%E7%90%86%E8%AB%96%E5%83%B9%E6%A0%BC.png)
+#### 各期hedge ratio
 ![各期hedge ratio](https://github.com/mengjelee/Financial_Engineering/blob/master/hw3/%E5%90%84%E6%9C%9Fhedge%20ratio.png)
 
 

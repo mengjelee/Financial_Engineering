@@ -1,4 +1,7 @@
 
+# Financial_Engineering
+#### 李孟哲；國企三；B06704028
+*******
 ### HW3 –運用backward induction計算出各節點價格及hedge ratio
 | [設計過程3][] || [流程圖3][] || [程式碼3][] |
 
